@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Abrir Guia Anônima",
+  "version": "3.5",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "incognito": "spanning"
+}
